@@ -1,0 +1,19 @@
+# Application de Sécurité des SI
+
+## Description
+Cette application a été développée dans le cadre du cours de "Sécurité des Systèmes d'Information" en Bachelor 3. Elle vise à démontrer des concepts clés de la sécurité informatique à travers des fonctionnalités pratiques.
+
+## Fonctionnalités
+- **Authentification sécurisée** : Implémentation d'un système de connexion robuste.
+- **Chiffrement des données** : Protection des données sensibles grâce à des algorithmes de cryptographie.
+- **Sécurisation des routes** : Protection des routes via des tokens JWT.
+
+## Utilisation
+1. Lancez l'application :
+    ```bash
+    node server.js
+    ```
+2. Suivez les instructions affichées dans l'interface utilisateur.
+
+## Auteurs
+- William
