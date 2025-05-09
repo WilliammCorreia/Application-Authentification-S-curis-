@@ -7,7 +7,7 @@ form.addEventListener("submit", async (e) => {
         const email = document.querySelector("#email").value;
         const password = document.querySelector("#pwd").value;
     
-        const response = await fetch("http://localhost:3000/login", {
+        const response = await fetch("http://backend:3000/login", {
             method: "POST",
             credentials: "include",
             headers: {"Content-Type": "application/json"},
