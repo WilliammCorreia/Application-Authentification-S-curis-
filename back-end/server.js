@@ -11,7 +11,7 @@ const prisma = new PrismaClient();
 const app = express();
 
 app.use(cors({
-    origin: ["http://frontend:8080", "http://127.0.0.1:5500"],
+    origin: ["http://localhost:8080", "http://127.0.0.1:5500"],
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type"],
     credentials: true

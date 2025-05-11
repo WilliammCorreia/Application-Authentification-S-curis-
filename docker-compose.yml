@@ -1,0 +1,16 @@
+services:
+  backend:
+    image: back-end
+    ports:
+      - 3000:3000
+    env_file:
+      - back-end/.env
+    volumes:
+      - sqlite_data:/app/prisma
+  frontend:
+    image: front-end
+    ports:
+      - 8080:80
+
+volumes:
+  sqlite_data:
